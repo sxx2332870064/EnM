@@ -1,0 +1,281 @@
+{
+  "version": "3.0.0",
+  "sample": false,
+  "input": {
+    "stage": "plan",
+    "emotion": "Anxiety and uncertainty.",
+    "mode": "digital",
+    "materials": [
+      "Laptop with basic p5.js"
+    ],
+    "workspace": "Tabletop only",
+    "projectionTarget": "none",
+    "safetyLimits": "No flashing lights, loud sounds, or physical construction.",
+    "safetyConfirmed": true,
+    "availableMinutes": 15,
+    "time": "15 minutes",
+    "skills": "Beginner — no coding needed",
+    "budget": "$0 — use confirmed resources only",
+    "additionalContext": ""
+  },
+  "result": {
+    "action": "GENERATE_EXPERIMENTS",
+    "message": "Here are three trials to explore how pacing, density, and spacing relate to your concept of anxiety and uncertainty.",
+    "reason": "The student is a digital beginner with limited time, so three appropriate digital trials matching their safety limits and resources are selected.",
+    "questions": [],
+    "experiments": [
+      {
+        "templateId": "digitalPace",
+        "title": "Time to notice",
+        "kind": "digital",
+        "focus": "pace",
+        "minutes": 8,
+        "digitalVariable": true,
+        "researchQuestion": "How does changing the speed of continuous movement alter the feeling of stillness versus tension?",
+        "conceptConnection": "Comparing still elements with slow movement can help examine how unpredictable transitions relate to uncertainty.",
+        "primaryVariable": "Speed of continuous, non-flashing movement",
+        "trials": [
+          "Still",
+          "Slow movement",
+          "Moderate movement"
+        ],
+        "constants": [
+          "Same screen and room light",
+          "Same shape color and size",
+          "Same viewing position"
+        ],
+        "materials": [
+          "Laptop with basic p5.js"
+        ],
+        "steps": [
+          "Open the built-in visual test. Keep its fixed settings unchanged.",
+          "Select each trial in order and watch for the same short period.",
+          "Write what visibly changes in each trial before adding an emotional interpretation."
+        ],
+        "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+        "technicalQuestion": "How does movement speed affect what you can follow?",
+        "emotionalQuestion": "Does the slow movement trial feel more like waiting or hesitation?",
+        "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+      },
+      {
+        "templateId": "digitalDensity",
+        "title": "How much is enough?",
+        "kind": "digital",
+        "focus": "density",
+        "minutes": 8,
+        "digitalVariable": true,
+        "researchQuestion": "How does varying the number of slowly moving marks shift the sense of visual crowding?",
+        "conceptConnection": "Adjusting the mark count allows you to test whether sparse or crowded arrangements better capture anxious over-stimulation.",
+        "primaryVariable": "Number of slowly moving marks",
+        "trials": [
+          "Few marks",
+          "Some marks",
+          "Many marks"
+        ],
+        "constants": [
+          "Same screen and room light",
+          "Same shape color and size",
+          "Same viewing position"
+        ],
+        "materials": [
+          "Laptop with basic p5.js"
+        ],
+        "steps": [
+          "Open the built-in visual test. Keep its fixed settings unchanged.",
+          "Select each trial in order and watch for the same short period.",
+          "Write what visibly changes in each trial before adding an emotional interpretation."
+        ],
+        "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+        "technicalQuestion": "Which marks or groups are easiest to track in each trial?",
+        "emotionalQuestion": "Which mark count makes you feel most overwhelmed or relieved?",
+        "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+      },
+      {
+        "templateId": "digitalSpacing",
+        "title": "Space between",
+        "kind": "digital",
+        "focus": "spacing",
+        "minutes": 8,
+        "digitalVariable": true,
+        "researchQuestion": "How does the gap between moving shapes influence the impression of distance or closeness?",
+        "conceptConnection": "Varying the gap size lets you explore how isolation and proximity reflect feelings of uncertainty.",
+        "primaryVariable": "Gap between two moving shapes",
+        "trials": [
+          "Small gap",
+          "Medium gap",
+          "Wide gap"
+        ],
+        "constants": [
+          "Same screen and room light",
+          "Same shape color and size",
+          "Same viewing position"
+        ],
+        "materials": [
+          "Laptop with basic p5.js"
+        ],
+        "steps": [
+          "Open the built-in visual test. Keep its fixed settings unchanged.",
+          "Select each trial in order and watch for the same short period.",
+          "Write what visibly changes in each trial before adding an emotional interpretation."
+        ],
+        "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+        "technicalQuestion": "What happens to the visible space between the shapes?",
+        "emotionalQuestion": "Does the wide gap or the small gap feel more disconnected to you?",
+        "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+      }
+    ],
+    "agentMeta": {
+      "provider": "Gemini Interactions API",
+      "model": "gemini-flash-lite-latest",
+      "status": "completed",
+      "requestId": "18c61061-64a6-4aa0-8485-a413d744957d",
+      "requestCount": 1,
+      "repairAttempted": false,
+      "validationStatus": "passed on first draft",
+      "eligibleTemplateCount": 3,
+      "interactionId": "v1_ChcxY3NFYTU2ZElwT3NpTE1QMHFMNndBMBIXMWNzRWE1NmRJcE9zaUxNUDBxTDZ3QTA",
+      "validationHistory": []
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-23T23:27:19.513Z",
+      "input": {
+        "stage": "plan",
+        "emotion": "Anxiety and uncertainty.",
+        "mode": "digital",
+        "materials": [
+          "Laptop with basic p5.js"
+        ],
+        "workspace": "Tabletop only",
+        "projectionTarget": "none",
+        "safetyLimits": "No flashing lights, loud sounds, or physical construction.",
+        "safetyConfirmed": true,
+        "availableMinutes": 15,
+        "time": "15 minutes",
+        "skills": "Beginner — no coding needed",
+        "budget": "$0 — use confirmed resources only",
+        "additionalContext": ""
+      },
+      "result": {
+        "action": "GENERATE_EXPERIMENTS",
+        "message": "Here are three trials to explore how pacing, density, and spacing relate to your concept of anxiety and uncertainty.",
+        "reason": "The student is a digital beginner with limited time, so three appropriate digital trials matching their safety limits and resources are selected.",
+        "questions": [],
+        "experiments": [
+          {
+            "templateId": "digitalPace",
+            "title": "Time to notice",
+            "kind": "digital",
+            "focus": "pace",
+            "minutes": 8,
+            "digitalVariable": true,
+            "researchQuestion": "How does changing the speed of continuous movement alter the feeling of stillness versus tension?",
+            "conceptConnection": "Comparing still elements with slow movement can help examine how unpredictable transitions relate to uncertainty.",
+            "primaryVariable": "Speed of continuous, non-flashing movement",
+            "trials": [
+              "Still",
+              "Slow movement",
+              "Moderate movement"
+            ],
+            "constants": [
+              "Same screen and room light",
+              "Same shape color and size",
+              "Same viewing position"
+            ],
+            "materials": [
+              "Laptop with basic p5.js"
+            ],
+            "steps": [
+              "Open the built-in visual test. Keep its fixed settings unchanged.",
+              "Select each trial in order and watch for the same short period.",
+              "Write what visibly changes in each trial before adding an emotional interpretation."
+            ],
+            "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+            "technicalQuestion": "How does movement speed affect what you can follow?",
+            "emotionalQuestion": "Does the slow movement trial feel more like waiting or hesitation?",
+            "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+          },
+          {
+            "templateId": "digitalDensity",
+            "title": "How much is enough?",
+            "kind": "digital",
+            "focus": "density",
+            "minutes": 8,
+            "digitalVariable": true,
+            "researchQuestion": "How does varying the number of slowly moving marks shift the sense of visual crowding?",
+            "conceptConnection": "Adjusting the mark count allows you to test whether sparse or crowded arrangements better capture anxious over-stimulation.",
+            "primaryVariable": "Number of slowly moving marks",
+            "trials": [
+              "Few marks",
+              "Some marks",
+              "Many marks"
+            ],
+            "constants": [
+              "Same screen and room light",
+              "Same shape color and size",
+              "Same viewing position"
+            ],
+            "materials": [
+              "Laptop with basic p5.js"
+            ],
+            "steps": [
+              "Open the built-in visual test. Keep its fixed settings unchanged.",
+              "Select each trial in order and watch for the same short period.",
+              "Write what visibly changes in each trial before adding an emotional interpretation."
+            ],
+            "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+            "technicalQuestion": "Which marks or groups are easiest to track in each trial?",
+            "emotionalQuestion": "Which mark count makes you feel most overwhelmed or relieved?",
+            "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+          },
+          {
+            "templateId": "digitalSpacing",
+            "title": "Space between",
+            "kind": "digital",
+            "focus": "spacing",
+            "minutes": 8,
+            "digitalVariable": true,
+            "researchQuestion": "How does the gap between moving shapes influence the impression of distance or closeness?",
+            "conceptConnection": "Varying the gap size lets you explore how isolation and proximity reflect feelings of uncertainty.",
+            "primaryVariable": "Gap between two moving shapes",
+            "trials": [
+              "Small gap",
+              "Medium gap",
+              "Wide gap"
+            ],
+            "constants": [
+              "Same screen and room light",
+              "Same shape color and size",
+              "Same viewing position"
+            ],
+            "materials": [
+              "Laptop with basic p5.js"
+            ],
+            "steps": [
+              "Open the built-in visual test. Keep its fixed settings unchanged.",
+              "Select each trial in order and watch for the same short period.",
+              "Write what visibly changes in each trial before adding an emotional interpretation."
+            ],
+            "observableEvidence": "Record the visible arrangement, movement, or grouping. Note no visible difference if that is what you see.",
+            "technicalQuestion": "What happens to the visible space between the shapes?",
+            "emotionalQuestion": "Does the wide gap or the small gap feel more disconnected to you?",
+            "constraintCheck": "Use slow motion at a comfortable brightness. Stop if the display causes discomfort."
+          }
+        ],
+        "agentMeta": {
+          "provider": "Gemini Interactions API",
+          "model": "gemini-flash-lite-latest",
+          "status": "completed",
+          "requestId": "18c61061-64a6-4aa0-8485-a413d744957d",
+          "requestCount": 1,
+          "repairAttempted": false,
+          "validationStatus": "passed on first draft",
+          "eligibleTemplateCount": 3,
+          "interactionId": "v1_ChcxY3NFYTU2ZElwT3NpTE1QMHFMNndBMBIXMWNzRWE1NmRJcE9zaUxNUDBxTDZ3QTA",
+          "validationHistory": []
+        }
+      }
+    }
+  ]
+}
